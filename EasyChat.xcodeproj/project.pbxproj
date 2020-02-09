@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B5B3A122360AA0200C364C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B5B3A112360AA0200C364C3 /* GoogleService-Info.plist */; };
 		0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628176235DEE8100E35CAF /* AppDelegate.swift */; };
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
 		0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817C235DEE8100E35CAF /* Main.storyboard */; };
@@ -22,12 +21,12 @@
 		0BA628A82361FC0400C7C981 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA628A72361FC0400C7C981 /* Message.swift */; };
 		0BA628AB2362046E00C7C981 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA628A92362046E00C7C981 /* MessageCell.swift */; };
 		0BA628AC2362046E00C7C981 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BA628AA2362046E00C7C981 /* MessageCell.xib */; };
-		F3E45E855FF553A5C598A783 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D9D92A3BE422FE87311B55 /* Pods_Flash_Chat_iOS13.framework */; };
+		47707D6E24F1AD67000DD8EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47707D6D24F1AD67000DD8EB /* GoogleService-Info.plist */; };
+		F3E45E855FF553A5C598A783 /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D9D92A3BE422FE87311B55 /* Pods_EasyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B5B3A112360AA0200C364C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B628173235DEE8100E35CAF /* EasyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B62817D235DEE8100E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,9 +41,10 @@
 		0BA628A72361FC0400C7C981 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
 		0BA628A92362046E00C7C981 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		0BA628AA2362046E00C7C981 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		21D9D92A3BE422FE87311B55 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64AD6ADC7D7AD14FB91A587E /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
-		EB5F478D8241F7A9083F0C03 /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
+		21D9D92A3BE422FE87311B55 /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47707D6D24F1AD67000DD8EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64AD6ADC7D7AD14FB91A587E /* Pods-EasyChatrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChatrelease.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-EasyChatrelease.xcconfig"; sourceTree = "<group>"; };
+		EB5F478D8241F7A9083F0C03 /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E45E855FF553A5C598A783 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
+				F3E45E855FF553A5C598A783 /* Pods_EasyChat.framework in Frameworks */,
 				0B6A41CA2366F25200F3366A /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 		02999A217B2C48011C66DD84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21D9D92A3BE422FE87311B55 /* Pods_Flash_Chat_iOS13.framework */,
+				21D9D92A3BE422FE87311B55 /* Pods_EasyChat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,7 +71,7 @@
 		0B62816A235DEE8100E35CAF = {
 			isa = PBXGroup;
 			children = (
-				0B628175235DEE8100E35CAF /* Flash Chat iOS13 */,
+				0B628175235DEE8100E35CAF /* EasyChat */,
 				0B628174235DEE8100E35CAF /* Products */,
 				5EF3A3E3FF8DC3677ADB9FA1 /* Pods */,
 				02999A217B2C48011C66DD84 /* Frameworks */,
@@ -81,12 +81,12 @@
 		0B628174235DEE8100E35CAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */,
+				0B628173235DEE8100E35CAF /* EasyChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B628175235DEE8100E35CAF /* Flash Chat iOS13 */ = {
+		0B628175235DEE8100E35CAF /* EasyChat */ = {
 			isa = PBXGroup;
 			children = (
 				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
@@ -97,10 +97,10 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				0B5B3A112360AA0200C364C3 /* GoogleService-Info.plist */,
+				47707D6D24F1AD67000DD8EB /* GoogleService-Info.plist */,
 				0BA628A52361DE4C00C7C981 /* Constants.swift */,
 			);
-			path = "Flash Chat iOS13";
+			path = EasyChat;
 			sourceTree = "<group>";
 		};
 		0B628192235DF02000E35CAF /* Controllers */ = {
@@ -135,8 +135,8 @@
 		5EF3A3E3FF8DC3677ADB9FA1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB5F478D8241F7A9083F0C03 /* Pods-Flash Chat iOS13.debug.xcconfig */,
-				64AD6ADC7D7AD14FB91A587E /* Pods-Flash Chat iOS13.release.xcconfig */,
+				EB5F478D8241F7A9083F0C03 /* Pods-EasyChat.debug.xcconfig */,
+				64AD6ADC7D7AD14FB91A587E /* Pods-EasyChatrelease.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B628172235DEE8100E35CAF /* Flash Chat iOS13 */ = {
+		0B628172235DEE8100E35CAF /* EasyChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */;
+			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "EasyChat" */;
 			buildPhases = (
 				5AF9F6930C73D868D3D829F1 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
@@ -158,12 +158,12 @@
 			);
 			dependencies = (
 			);
-			name = "Flash Chat iOS13";
+			name = EasyChat;
 			packageProductDependencies = (
 				0B6A41C92366F25200F3366A /* IQKeyboardManagerSwift */,
 			);
 			productName = "Flash Chat iOS13";
-			productReference = 0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */;
+			productReference = 0B628173235DEE8100E35CAF /* EasyChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS13" */;
+			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "EasyChat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,7 +197,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B628172235DEE8100E35CAF /* Flash Chat iOS13 */,
+				0B628172235DEE8100E35CAF /* EasyChat */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0BA628AC2362046E00C7C981 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
-				0B5B3A122360AA0200C364C3 /* GoogleService-Info.plist in Resources */,
+				47707D6E24F1AD67000DD8EB /* GoogleService-Info.plist in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,12 +414,12 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB5F478D8241F7A9083F0C03 /* Pods-Flash Chat iOS13.debug.xcconfig */;
+			baseConfigurationReference = EB5F478D8241F7A9083F0C03 /* Pods-EasyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
-				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
+				INFOPLIST_FILE = EasyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,12 +433,12 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64AD6ADC7D7AD14FB91A587E /* Pods-Flash Chat iOS13.release.xcconfig */;
+			baseConfigurationReference = 64AD6ADC7D7AD14FB91A587E /* Pods-EasyChatrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
-				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
+				INFOPLIST_FILE = EasyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS13" */ = {
+		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "EasyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B628185235DEE8400E35CAF /* Debug */,
@@ -462,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */ = {
+		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "EasyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B628188235DEE8400E35CAF /* Debug */,
